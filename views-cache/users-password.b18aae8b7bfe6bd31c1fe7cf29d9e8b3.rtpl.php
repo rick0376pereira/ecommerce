@@ -20,17 +20,21 @@
         <!-- form start -->
 
         <?php if( $msgError != '' ){ ?>
+
         <div class="alert alert-danger alert-dismissible" style="margin:10px">
             <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
             <p><?php echo htmlspecialchars( $msgError, ENT_COMPAT, 'UTF-8', FALSE ); ?></p>
         </div>
         <?php } ?>
+
         <?php if( $msgSuccess != '' ){ ?>
+
         <div class="alert alert-success alert-dismissible" style="margin:10px">
             <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
             <p><?php echo htmlspecialchars( $msgSuccess, ENT_COMPAT, 'UTF-8', FALSE ); ?></p>
         </div>
         <?php } ?>
+
 
         <form role="form" action="/admin/users/<?php echo htmlspecialchars( $user["iduser"], ENT_COMPAT, 'UTF-8', FALSE ); ?>/password" method="post">
           <div class="box-body">
