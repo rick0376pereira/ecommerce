@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'bb7fcd59a8ee3b488076f992ab82e0ca24d05555',
+        'reference' => '4c7a906cff0719a92d1f23859302c94189bc60a6',
         'name' => 'rick0376pereira/ecommerce',
         'dev' => true,
     ),
@@ -34,7 +34,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'bb7fcd59a8ee3b488076f992ab82e0ca24d05555',
+            'reference' => '4c7a906cff0719a92d1f23859302c94189bc60a6',
             'dev_requirement' => false,
         ),
         'slim/slim' => array(
